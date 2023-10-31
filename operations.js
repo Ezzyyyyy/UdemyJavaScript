@@ -8,6 +8,13 @@ console.log((10 + 3 - 5) * 10); // Works like normal maths, Multiplication first
 
 console.log("Elliot" + " Thorpe"); // concatenate strings (Doesn't work with Minus would return NaN (Not a Number))
 
+let userName = "Elliot";
+console.log(userName.length); //Outputs length of string (Number of Characters)
+console.log(userName.toUpperCase()); // Outputs string as UPPERCASE
+
+let hobbies = ['Travelling', 'Cooking'];
+console.log(hobbies.length); // This will tell you the length of the array
+
 //let result = (10 + 3 - 5) * 10;
 //result = 10 * 4;
 //result++; //result = result + 1
