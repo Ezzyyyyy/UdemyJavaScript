@@ -6,11 +6,7 @@ console.log(10 % 4); // gives remainder from calculation 10 / 4 => 4 * 2 = 8 10 
 
 console.log((10 + 3 - 5) * 10); // Works like normal maths, Multiplication first. Brackets can help with this.
 
-
-
-
-
-
+console.log("Elliot" + " Thorpe"); // concatenate strings (Doesn't work with Minus would return NaN (Not a Number))
 
 //let result = (10 + 3 - 5) * 10;
 //result = 10 * 4;
